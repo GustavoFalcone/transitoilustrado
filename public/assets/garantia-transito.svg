@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="440" viewBox="0 0 400 440" role="img" aria-labelledby="title">
+  <title id="title">7 dias para conhecer o material</title>
+  <defs><linearGradient id="a" x2="1" y2="1"><stop stop-color="#ffd83c"/><stop offset="1" stop-color="#e9a300"/></linearGradient></defs>
+  <path d="M200 28 356 88v117c0 101-57 164-156 210C101 369 44 306 44 205V88L200 28Z" fill="url(#a)" stroke="#262626" stroke-width="14"/>
+  <path d="M200 64 323 111v95c0 78-42 131-123 170C119 337 77 284 77 206v-95L200 64Z" fill="#fffdf6" stroke="#262626" stroke-width="4"/>
+  <path d="M116 137h168" stroke="#f3bd17" stroke-width="8" stroke-linecap="round"/>
+  <text x="200" y="246" text-anchor="middle" font-family="Arial, sans-serif" font-size="139" font-weight="900" fill="#232323">7</text>
+  <text x="200" y="299" text-anchor="middle" font-family="Arial, sans-serif" font-size="43" font-weight="900" fill="#232323">DIAS</text>
+  <path d="M152 331l26 26 67-68" fill="none" stroke="#dba100" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

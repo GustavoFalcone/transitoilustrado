@@ -1,6 +1,6 @@
-# Atlas Visual do Pizzaiolo
+# Trânsito Ilustrado
 
-Landing page do produto Atlas Visual do Pizzaiolo, construída com React e Vite.
+Landing page do material +150 Pranchas de Situações de Trânsito, construída com React e Vite.
 
 ## Desenvolvimento
 

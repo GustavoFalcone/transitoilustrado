@@ -1,0 +1,27 @@
+/* Adaptação da oferta de trânsito, sem alterar a ordem ou a malha das seções. */
+.hero h1 { font-size: clamp(30px, 6.2vw, 48px); line-height: 1.1; max-width: 780px; margin-inline: auto; }
+.hero h1 span { white-space: normal; }
+.hero h1 span:first-child { font-size: 1em; color: #202020; text-decoration: none; }
+.hero .heroLabel { color: #fff; font-size: 10px; font-weight: 800; }
+.heroSubtitle { max-width: 690px; color: #202020; }
+.heroVsl { width: 92%; max-width: 420px; aspect-ratio: 16 / 9; margin: 21px auto 23px; border-radius: 17px; background: radial-gradient(circle at 50% 35%, #3c3c3c, #191919 72%); box-shadow: 0 16px 40px #1313132b; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 14px; color: #fff; font-size: 10px; letter-spacing: .13em; font-weight: 800; border: 3px solid #efbc55; }
+.vslPlay { display: grid; place-items: center; width: 66px; height: 66px; border-radius: 50%; background: var(--yellow); color: #fff; font-size: 26px; line-height: 1; padding-left: 5px; box-shadow: 0 5px 17px #0005; }
+.hero > .micro { margin-top: 12px; color: #202020; }
+.urgency, .urgency > span, .hero .heroLabel, .cta, .basic .cta, .complete .cta, .upgrade .cta, .finalCta .cta, .popular, .bonusCards article .bonusNumber, .chips span { color: #fff; }
+.digit { color: #fff; }
+.cta .atlasIcon { filter: brightness(0) invert(1); }
+.eyebrow, .featured h3, .benefitVisual > span, .plans h2 em, .offerNotice, .colon, .upgradeHint, .complete > .price, .upgrade .price, .bonusPrice strong, .featureList li > span:first-child, .faqList h3 span { color: #202020; }
+.chips span:nth-child(3n + 2), .chips span:nth-child(3n) { background: var(--yellow); border-color: var(--yellow); color: #fff; }
+.trafficIcon { display: block; flex-shrink: 0; width: 48px; height: 48px; color: #242424; }
+.portrait.trafficPortrait { background: transparent; border: 0; }
+.trafficPortrait img, .summaryRound img, .benefitRound img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.summaryRound { width: 64px; height: 64px; flex: 0 0 64px; border-radius: 50%; overflow: hidden; }
+.benefitCards article .benefitVisual { padding-top: 0; background: transparent; }
+.benefitVisual > span { display: none; }
+.benefitRound { width: 72px; height: 72px; border-radius: 50%; overflow: hidden; }
+.finalCta .trafficIcon { width: 90px; height: 90px; margin: 0 auto 20px; padding: 19px; border-radius: 50%; background: #f4cc6c; }
+.audienceCard p, .summaryCards p, .benefitCards p, .bonusCards p, .guarantee p, .faqList p, .finalCta p, .planDescription, .heroSubtitle { color: #202020; }
+.plan .cta:disabled, .upgrade .cta:disabled, .upgrade .secondary:disabled { opacity: .6; cursor: not-allowed; }
+.guaranteeSeal.imageSeal img { width: 100%; height: auto; }
+.calculatorImage img { display: block; width: min(100%, 640px); height: auto; margin-inline: auto; }
+@media (max-width: 480px) { .hero h1 { font-size: clamp(27px, 7vw, 35px); } .heroVsl { max-width: 370px; } }

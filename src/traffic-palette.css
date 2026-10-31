@@ -1,0 +1,123 @@
+/* Superfícies amarelas; cores dos textos de destaque preservadas. */
+:root {
+  --yellow: #D99A37;
+  --yellow-dark: #A36A1F;
+  --yellow-soft: #FFF4DC;
+  --text-red: #C5241A;
+  --text-green: #246A3C;
+  --red: var(--yellow);
+  --gold: var(--yellow);
+}
+
+.urgency {
+  color: var(--ink);
+  background: var(--yellow);
+  box-shadow: 0 2px 0 var(--yellow-dark), 0 8px 22px #a36a1f22;
+}
+.urgency > span {
+  color: var(--ink);
+  background: #F4CE89;
+  border-color: #a36a1f55;
+}
+
+.hero .heroLabel { color: var(--ink); background: var(--yellow); }
+.hero h1 span:first-child { color: var(--yellow); text-decoration-color: var(--yellow); }
+.hero h1 span:last-child { color: var(--text-green); }
+
+.cta,
+.basic .cta,
+.complete .cta,
+.upgrade .cta,
+.finalCta .cta {
+  color: var(--ink);
+  background: var(--yellow);
+  box-shadow: 0 4px 0 var(--yellow-dark), 0 9px 22px #a36a1f28;
+}
+.cta .atlasIcon { color: var(--ink); }
+.cta:hover:not(:disabled),
+.basic .cta:hover:not(:disabled) { background: #E8AB4B; }
+@keyframes ctaPulse {
+  50% { box-shadow: 0 4px 0 var(--yellow-dark), 0 0 0 6px #d99a3718, 0 9px 22px #d99a372b; }
+}
+
+.featured {
+  background: var(--yellow-soft);
+  border-color: var(--yellow);
+  box-shadow: inset 4px 0 0 var(--yellow), 0 8px 28px #24242408;
+}
+.featured h3 { color: var(--text-red); }
+.summaryCards article:first-child {
+  background: var(--yellow-soft);
+  border-color: #d99a3766;
+}
+
+.chips span {
+  color: var(--ink);
+  background: var(--yellow);
+  border-color: var(--yellow);
+}
+.chips span:nth-child(3n + 2) { background: #F3CD87; }
+.chips span:nth-child(3n) { background: var(--yellow-soft); }
+
+.benefitCards article .benefitVisual { color: var(--ink); background: var(--yellow-soft); }
+.benefitCards article .benefitVisual > span,
+.benefitCards article .benefitVisual .atlasIcon { color: var(--text-red); }
+.bonusCards article .bonusNumber { color: var(--ink); background: var(--yellow); }
+.bonusCards article:nth-child(2n) .bonusNumber { background: #F3CD87; }
+.bonusPrice strong,
+.featureList li > span:first-child { color: var(--text-green); }
+
+.eyebrow,
+.benefitVisual > span,
+.plans h2 em,
+.offerNotice,
+.colon,
+.upgradeHint,
+.upgradeHint .atlasIcon,
+.complete > .price,
+.upgrade .price,
+.includedBonuses > del,
+.faqList h3 span { color: var(--text-red); }
+.plans h2 em { text-decoration-color: var(--yellow); }
+.digit {
+  color: var(--ink);
+  background: linear-gradient(var(--yellow) 49%, #C98725 50%);
+  box-shadow: 0 3px 0 var(--yellow-dark);
+}
+.digit::after { background: #a36a1f66; }
+
+.complete {
+  border-color: var(--yellow);
+  box-shadow: 0 12px 35px #d99a3716;
+}
+.popular { color: var(--ink); background: var(--yellow); }
+.complete > .price,
+.upgrade .price { color: var(--text-red); text-shadow: 0 3px 0 #fff, 0 8px 22px #d99a3724; }
+.upgradeHint {
+  background: var(--yellow-soft);
+  border-color: #d99a3780;
+}
+.upgrade .secondary {
+  color: var(--text-red);
+  background: var(--yellow-soft);
+  border-color: var(--yellow);
+}
+.upgrade .secondary:hover { color: var(--ink); background: var(--yellow); }
+
+.valuePanel {
+  background: var(--yellow-soft);
+}
+.valuePanel > .atlasIcon,
+.valuePanel li strong,
+.bonusTotal strong { color: var(--text-red); }
+.valuePanel p { color: var(--muted); }
+.valuePanel li { border-color: #a36a1f44; }
+.freeValue { color: var(--ink); background: var(--yellow); }
+
+.finalCta {
+  background: linear-gradient(to bottom, #FFF9F2, #F8EAD7 65px, #F8EAD7);
+}
+footer {
+  background: #F4E8D5;
+  border-top: 1px solid #d99a3760;
+}

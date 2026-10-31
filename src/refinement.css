@@ -2,7 +2,7 @@
 :root{--top:48px}
 .urgency{flex-direction:row;flex-wrap:nowrap;gap:10px;padding:8px 10px;min-height:48px;white-space:nowrap}
 .urgency strong{font-size:clamp(8px,2.05vw,12px);letter-spacing:0}
-.urgency>span{display:flex;align-items:center;gap:5px;padding:7px 8px;border:1px solid #ffffff70;border-radius:6px;background:#961b14;font-size:clamp(8px,1.9vw,11px);letter-spacing:0}
+.urgency>span{display:flex;align-items:center;gap:5px;padding:7px 8px;border:1px solid #ffffff70;border-radius:6px;background:#A36A1F;font-size:clamp(8px,1.9vw,11px);letter-spacing:0}
 .urgency b{margin:0;font-size:clamp(10px,2.5vw,14px)}
 .hero{padding-top:18px;padding-bottom:20px}
 .heroLabel{background:var(--red);color:white;border:0;padding:6px 16px;font-size:10px;letter-spacing:.1em;margin-bottom:12px}
@@ -12,8 +12,8 @@
 .heroAsset{margin:15px auto;width:92%;max-width:420px;aspect-ratio:1.25}
 .hero .cta{animation:ctaPulse 2.8s ease-in-out infinite;font-size:12px;min-height:54px;padding:15px 10px}
 .hero .micro{margin-top:12px;font-size:9px}
-@keyframes headlinePulse{50%{transform:scale(1.012);text-shadow:0 2px 14px #c5241a14}}
-@keyframes ctaPulse{50%{box-shadow:0 4px 0 #9b1e17,0 0 0 6px #c5241a14,0 9px 22px #c5241a24}}
+@keyframes headlinePulse{50%{transform:scale(1.012);text-shadow:0 2px 14px #d99a3714}}
+@keyframes ctaPulse{50%{box-shadow:0 4px 0 #A36A1F,0 0 0 6px #d99a3714,0 9px 22px #d99a3724}}
 .digit{width:34px;height:48px;font-size:26px}.tileTimer{gap:5px}.colon{font-size:25px}
 .planGrid{align-items:start}
 .basic{padding:24px 20px;background:#fffdf9;border-color:#e6ddd2;box-shadow:none}

@@ -33,7 +33,7 @@
   color: #242424;
   background: #FFF9F2;
   font-synthesis: none;
-  --red:#C5241A;
+  --red:#D99A37;
   --gold:#D99A37;
   --ink:#242424;
   --paper:#FFF9F2;
@@ -261,7 +261,7 @@ main {
   max-width: 520px;
   min-height: 60px;
   margin-inline: auto;
-  box-shadow: 0 4px 0 #9b1e17, 0 9px 22px #C5241A16;
+  box-shadow: 0 4px 0 #A36A1F, 0 9px 22px #D99A3716;
   transition: background .2s, transform .2s;
 }
 .cta .atlasIcon {
@@ -270,7 +270,7 @@ main {
   color: white;
 }
 .cta:hover:not(:disabled) {
-  background: #ac2017;
+  background: #C08327;
   transform: translateY(-1px);
 }
 .cta:active:not(:disabled) {
@@ -652,15 +652,15 @@ main {
   font-weight: 700;
   border-radius: 6px;
   color: white;
-  background: linear-gradient(#c5241a 49%, #a92018 50%);
-  box-shadow: 0 3px 0 #831b16;
+  background: linear-gradient(#D99A37 49%, #B87924 50%);
+  box-shadow: 0 3px 0 #805719;
 }
 .digit:after {
   content: "";
   position: absolute;
   inset: 50% 0 auto;
   height: 1px;
-  background: #6f181666;
+  background: #6F4C1966;
 }
 .colon {
   color: var(--red);
@@ -733,7 +733,7 @@ main {
   color: #716b65;
 }
 .excluded li > span:first-child {
-  color: #af5046;
+  color: #A8752D;
 }
 .excluded li > span:last-child {
   text-decoration: line-through;
@@ -788,7 +788,7 @@ main {
 .complete {
   border: 2px solid var(--red);
   padding-top: 42px;
-  box-shadow: 0 12px 35px #C5241A0b;
+  box-shadow: 0 12px 35px #D99A370b;
 }
 .popular {
   position: absolute;

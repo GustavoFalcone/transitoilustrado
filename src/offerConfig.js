@@ -1,45 +1,57 @@
 export const offerConfig = {
-  name: "Atlas Visual do Pizzaiolo",
+  name: "+150 Pranchas de Situações de Trânsito",
   basicPrice: "R$ 10,00",
   completePrice: "R$ 27,90",
   completeAnchor: "DE R$ 97,00",
   upgradePrice: "R$ 17,90",
   bonusTotal: "R$ 87,00",
-  basicCheckout: "https://zuckpay.com.br/checkout/plano-basico-100-mapas-de-montagem-de-pizzas",
-  completeCheckout: "https://zuckpay.com.br/checkout/plano-completo-100-mapas-de-montagem-de-pizzas",
-  upgradeCheckout: "https://zuckpay.com.br/checkout/plano-completo-100-mapas-de-montagem-de-pizzas-1",
+  basicCheckout: "https://ggcheckout.app/checkout/v5/NsImqTEGL7VoRozGbrPbJP",
+  completeCheckout: "https://ggcheckout.app/checkout/v5/MZIouKFUrIygT43iz7X7lO",
+  upgradeCheckout: "https://ggcheckout.app/checkout/v5/GqRucOQRhPlfjtwJC4EIWc",
   countdownMinutes: 30,
-  countdownStorageKey: "atlas-pizzaiolo:offer-start:v1"
+  countdownStorageKey: "pranchas-transito:offer-start:v1"
 };
+
 export const audiences = [
-  { image: "/assets/generated/pizzaiolo-iniciante.webp", title: "Pizzaiolo iniciante ou auxiliar", text: "Para quem está começando ou estudando sobre pizzas e ainda se confunde com ingredientes, sabores e montagens." },
-  { image: "/assets/generated/pizzaiolo-profissional.webp", title: "Quem já trabalha em Pizzarias", text: "Para quem precisa consultar rapidamente um sabor, conferir os componentes e não depender somente da memória no meio da produção." },
-  { image: "/assets/generated/dono-gerente.webp", title: "Dono ou gerente de pizzaria", text: "Para quem quer usar o material como apoio visual para organizar referências de montagem e facilitar o treinamento de quem está entrando na equipe." },
-  { image: "/assets/generated/empreendedor.webp", title: "Quem vende pizza em casa ou está começando um delivery (Empreendedores)", text: "Para empreendedores terem uma base visual de diferentes sabores para ampliar seu repertório sem precisar improvisar cada montagem do zero." }
+  { image: "/assets/traffic-round/audience-learning.webp", title: "Para quem está aprendendo a dirigir", text: "Se você ainda se confunde em várias situações do trânsito, esse material ajuda a visualizar e entender melhor o que acontece na prática." },
+  { image: "/assets/traffic-round/audience-cnh.webp", title: "Para quem vai tirar ou acabou de tirar a CNH", text: "Uma forma mais visual de revisar regras, placas e situações comuns sem depender só de texto e decoreba." },
+  { image: "/assets/traffic-round/audience-confidence.webp", title: "Para quem já dirige, mas quer ter mais segurança", text: "Muita gente dirige há anos e ainda tem dúvidas sobre preferência, estacionamento, placas e sinalizações." },
+  { image: "/assets/traffic-round/audience-worker.webp", title: "Para quem trabalha dirigindo", text: "Motoristas de app, entregadores e profissionais que passam muito tempo no trânsito podem usar o material como consulta prática no dia a dia." },
+  { image: "/assets/traffic-round/audience-visual.webp", title: "Para quem prefere aprender visualmente", text: "Em vez de tentar entender tudo por textos longos, você vê a situação acontecendo e entende com muito mais facilidade." }
 ];
+
+export const summaryItems = [
+  { image: "/assets/traffic-round/summary-pages.webp", title: "+150 pranchas visuais de situações de trânsito", text: "Entenda placas, preferências, cruzamentos, sinalizações, infrações e várias situações reais do trânsito." },
+  { image: "/assets/traffic-round/summary-pdf.webp", title: "Material digital em PDF", text: "Você recebe tudo de forma organizada para acessar no celular, tablet ou computador." },
+  { image: "/assets/traffic-round/summary-mail.webp", title: "Acesso imediato no e-mail", text: "Assim que a compra for confirmada, o material chega para você imediatamente no e-mail." },
+  { image: "/assets/traffic-round/summary-consult.webp", title: "Consulta prática para usar quando quiser", text: "Você pode estudar com calma, revisar ou simplesmente abrir uma situação específica quando tiver dúvida." },
+  { image: "/assets/traffic-round/audience-visual.webp", title: "Leitura mais fácil e visual", text: "Em vez de depender de textos longos, você aprende vendo e entendendo as situações." }
+];
+
 export const bonuses = [
-  { image: "/assets/bonus/bonus-01.webp", title: "Manual Visual de Pré-Preparo dos Ingredientes", summaryTitle: "MANUAL VISUAL DE PRÉ-PREPARO DOS INGREDIENTES", shortTitle: "Manual Visual de Pré-Preparo", text: "Um material ilustrado para consultar cortes, organização e pré-preparo de ingredientes usados na montagem.", summary: "Veja como organizar e preparar diferentes ingredientes antes da montagem de forma muito mais visual.", value: "R$ 27,00", icon: "prep" },
-  { image: "/assets/bonus/bonus-02.webp", title: "Guia Visual de Porcionamento e Distribuição", summaryTitle: "GUIA VISUAL DE PORCIONAMENTO E DISTRIBUIÇÃO", shortTitle: "Guia Visual de Porcionamento e Distribuição", text: "Veja exemplos visuais de distribuição para evitar concentração excessiva e compreender melhor a área de cobertura da pizza.", summary: "Referências visuais para entender melhor como distribuir os ingredientes pela área útil da pizza.", value: "R$ 23,00", icon: "sectors" },
-  { image: "/assets/bonus/bonus-03.webp", title: "+30 Desafios Visuais do Pizzaiolo", summaryTitle: "+30 DESAFIOS VISUAIS DO PIZZAIOLO", shortTitle: "+30 Desafios Visuais do Pizzaiolo", text: "Desafios ilustrados para testar seu olhar, identificar problemas e praticar a leitura visual de diferentes montagens.", summary: "Exercícios ilustrados para testar seu olhar e treinar a identificação de problemas de montagem e distribuição.", value: "R$ 17,00", icon: "eye" },
-  { image: "/assets/bonus/bonus-04.webp", title: "Certificado de Conclusão", summaryTitle: "CERTIFICADO DE CONCLUSÃO", shortTitle: "Certificado de Conclusão", text: "Certificado digital para registrar a conclusão do material.", summary: "Um certificado digital de conclusão do material para registrar que você finalizou o conteúdo.", value: "R$ 20,00", icon: "certificate" }
+  { image: "/assets/bonus/certificado-conclusao.png", title: "Certificado de Conclusão", text: "Um certificado digital para registrar a conclusão do material.", value: "R$ 27,00" },
+  { image: "/assets/bonus/desafios-visuais-transito.png", title: "+50 Desafios Visuais de Trânsito", text: "Situações ilustradas para testar seus conhecimentos e fixar melhor o que aprendeu.", value: "R$ 23,00" },
+  { image: "/assets/bonus/emergencias-imprevistos-transito.png", title: "Manual de Emergências e Imprevistos no Trânsito", text: "Um guia visual com orientações para situações inesperadas do dia a dia no trânsito.", value: "R$ 17,00" },
+  { image: "/assets/bonus/multas-pontos-infracoes-final.png", title: "Guia Visual de Multas, Pontos e Infrações", text: "Entenda de forma simples as principais infrações, pontuação e consequências.", value: "R$ 20,00" }
 ];
+
 export const benefits = [
-  { title: "Pare de depender só da memória", text: "Quando surgir dúvida sobre um sabor, abra o mapa e confira os componentes visualmente.", icon: "memory" },
-  { title: "Entenda a estrutura da montagem", text: "Veja a pizza pronta, a anatomia em camadas e uma sequência visual de referência na mesma página.", icon: "layers" },
-  { title: "Visualize pizzas divididas com mais clareza", text: "Consulte referências de meio a meio, 3 sabores e 4 sabores sem se perder entre os setores.", icon: "sectors" },
-  { title: "Consulte do jeito que for mais prático", text: "Abra pelo celular durante a rotina ou imprima as páginas que quiser deixar por perto.", icon: "device" }
+  { title: "Você entende situações que antes geravam dúvida", text: "Cruzamentos, preferências, placas, ultrapassagens e sinalizações ficam muito mais fáceis de visualizar.", image: "/assets/traffic-round/benefit-junction.webp" },
+  { title: "Aprende de forma mais clara e menos cansativa", text: "Em vez de depender só de texto e teoria, você passa a entender as regras vendo a situação acontecer.", image: "/assets/traffic-round/summary-pages.webp" },
+  { title: "Consulta quando quiser, sem complicação", text: "É o tipo de material que você pode abrir para revisar ou tirar dúvidas sempre que precisar.", image: "/assets/traffic-round/benefit-search.webp" },
+  { title: "Dirige com mais clareza e segurança", text: "Quando você entende melhor o que está acontecendo no trânsito, as decisões ficam mais simples no dia a dia.", image: "/assets/traffic-round/audience-confidence.webp" }
 ];
+
 export const faqs = [
-  ["O que é o Atlas Visual do Pizzaiolo?", "É um material digital com +100 Mapas de Montagem de Pizzas. Cada mapa apresenta a pizza visualmente para facilitar a consulta dos componentes, da anatomia e da estrutura de montagem."],
-  ["Serve para quem está começando?", "Sim. O material foi pensado justamente para ser fácil de consultar, inclusive por pizzaiolos iniciantes, auxiliares e pessoas que ainda estão ganhando experiência na bancada."],
-  ["Já trabalho como pizzaiolo. Ainda pode me ajudar?", "Sim. Você pode usar o Atlas como referência rápida quando quiser conferir um sabor, uma composição ou uma pizza dividida sem depender apenas da memória."],
-  ["É um curso em vídeo?", "Não. O Atlas é um material visual e digital de consulta. A proposta é abrir, localizar a pizza e entender a montagem sem precisar assistir a aulas longas."],
-  ["Como vou receber o material?", "O material é digital. Após a confirmação da compra, o acesso é liberado conforme o processo da plataforma utilizada no checkout."],
-  ["Posso usar pelo celular?", "Sim. O material foi pensado para consulta digital e pode ser aberto pelo celular. Você também poderá imprimir páginas quando isso for mais prático para sua rotina."],
-  ["Preciso seguir todas as montagens exatamente iguais?", "Não. O Atlas funciona como referência visual. Cada pizzaria pode possuir seu próprio padrão de massa, porcionamento, ingredientes e montagem, então o conteúdo pode ser adaptado à realidade da operação."],
-  ["O certificado me torna um pizzaiolo profissional?", "Não. O certificado registra a conclusão do material e não substitui formação profissional, certificação reconhecida ou exigências específicas da profissão."],
-  ["Qual a diferença entre o Plano Básico e o Completo?", "O Plano Básico libera o Atlas principal com os +100 Mapas de Montagem. O Plano Completo inclui o Atlas e também os quatro bônus da oferta."]
+  ["Como eu recebo o material?", "Após a confirmação da compra, o acesso é enviado imediatamente para o seu e-mail."],
+  ["O material é físico?", "Não. Este é um material 100% digital."],
+  ["Posso acessar pelo celular?", "Sim. Você pode acessar pelo celular, tablet ou computador."],
+  ["Esse material serve só para quem vai tirar CNH?", "Não. Ele também é útil para quem já dirige e quer entender melhor várias situações do trânsito."],
+  ["O material é muito técnico?", "Não. Ele foi pensado para ser visual, direto e fácil de entender."],
+  ["Vou receber os bônus junto?", "Sim. Ao escolher o plano completo, você recebe também os bônus descritos na oferta."],
+  ["Tem mensalidade?", "Não. O pagamento é único."]
 ];
+
 export function checkoutWithParams(checkout, search = "") {
   if (!checkout || checkout.includes("{{")) return null;
   try {
@@ -54,6 +66,7 @@ export function checkoutWithParams(checkout, search = "") {
     return null;
   }
 }
+
 export function getOfferDeadline(storage, now = Date.now()) {
   let start = now;
   try {
