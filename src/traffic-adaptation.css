@@ -4,8 +4,7 @@
 .hero h1 span:first-child { font-size: 1em; color: #202020; text-decoration: none; }
 .hero .heroLabel { color: #fff; font-size: 10px; font-weight: 800; }
 .heroSubtitle { max-width: 690px; color: #202020; }
-.heroVsl { width: 92%; max-width: 420px; aspect-ratio: 16 / 9; margin: 21px auto 23px; border-radius: 17px; background: radial-gradient(circle at 50% 35%, #3c3c3c, #191919 72%); box-shadow: 0 16px 40px #1313132b; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 14px; color: #fff; font-size: 10px; letter-spacing: .13em; font-weight: 800; border: 3px solid #efbc55; }
-.vslPlay { display: grid; place-items: center; width: 66px; height: 66px; border-radius: 50%; background: var(--yellow); color: #fff; font-size: 26px; line-height: 1; padding-left: 5px; box-shadow: 0 5px 17px #0005; }
+.heroMockup { display: block; width: 100%; max-width: 680px; height: auto; margin: 12px auto 18px; }
 .hero > .micro { margin-top: 12px; color: #202020; }
 .urgency, .urgency > span, .hero .heroLabel, .cta, .basic .cta, .complete .cta, .upgrade .cta, .finalCta .cta, .popular, .bonusCards article .bonusNumber, .chips span { color: #fff; }
 .digit { color: #fff; }
@@ -24,4 +23,4 @@
 .plan .cta:disabled, .upgrade .cta:disabled, .upgrade .secondary:disabled { opacity: .6; cursor: not-allowed; }
 .guaranteeSeal.imageSeal img { width: 100%; height: auto; }
 .calculatorImage img { display: block; width: min(100%, 640px); height: auto; margin-inline: auto; }
-@media (max-width: 480px) { .hero h1 { font-size: clamp(27px, 7vw, 35px); } .heroVsl { max-width: 370px; } }
+@media (max-width: 480px) { .hero h1 { font-size: clamp(27px, 7vw, 35px); } }
