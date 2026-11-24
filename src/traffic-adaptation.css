@@ -1,7 +1,7 @@
 /* Adaptação da oferta de trânsito, sem alterar a ordem ou a malha das seções. */
-.hero h1 { font-size: clamp(30px, 6.2vw, 48px); line-height: 1.1; max-width: 780px; margin-inline: auto; text-wrap: balance; text-decoration: underline; text-decoration-color: var(--yellow); text-decoration-thickness: .12em; text-underline-offset: .13em; text-decoration-skip-ink: auto; }
+.hero h1 { font-size: clamp(30px, 6.2vw, 48px); line-height: 1.18; max-width: 780px; margin-inline: auto; text-wrap: balance; }
 .hero h1 span { white-space: normal; }
-.hero h1 span:first-child { font-size: 1em; color: #202020; text-decoration: none; }
+.hero h1 span:first-child { display: inline; font-size: 1em; color: inherit; text-decoration: underline; text-decoration-color: var(--yellow); text-decoration-thickness: .12em; text-underline-offset: .13em; text-decoration-skip-ink: auto; }
 .hero .heroLabel { color: #fff; font-size: 10px; font-weight: 800; }
 .heroSubtitle { max-width: 690px; color: #202020; }
 .heroMockup { display: block; width: 100%; max-width: 680px; height: auto; margin: 12px auto 18px; }
